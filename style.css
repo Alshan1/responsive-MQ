@@ -1,0 +1,30 @@
+.imagediv {
+    background-color: #d3d3d3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    border-radius: 13%;
+    transition: all 3s;
+}
+
+img {
+    width: 27%;
+    height: 201px;
+    border: solid 10px;
+    border-color: green;
+    border-radius: 16%;
+}
+
+@media screen and (max-width: 600px) {
+    .imagediv {
+        flex-direction: column;
+        align-content: flex-start;
+        
+    }
+
+    img {
+        width: 210px;
+    }
+}
